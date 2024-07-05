@@ -1,21 +1,25 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <div class="video-bg">
+        <video width="320" height="240"   muted>
+            <source src="/src/assets/bg_video.mp4" type="video/mp4">
+        </video>
     </div>
-  </header>
+    <div class="app">
 
-  <RouterView />
+        <header>
+            <nav>
+                <RouterLink to="/">Home</RouterLink>
+                <RouterLink to="/about">About</RouterLink>
+                <RouterLink to="/projects">Projects</RouterLink>
+                <RouterLink to="/experience">Experience</RouterLink>
+                <RouterLink to="/contact">Contact</RouterLink>
+            </nav>
+        </header>
+        <RouterView />
+    </div>
+
 </template>
