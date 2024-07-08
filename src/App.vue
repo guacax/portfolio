@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
     <div class="video-bg">
-        <video width="320" height="240" autoplay muted>
+        <video width="320" height="240" loop autoplay muted>
             <source src="/src/assets/bg_video.mp4" type="video/mp4">
         </video>
     </div>
