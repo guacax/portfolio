@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
     <div class="video-bg">
-        <video width="320" height="240"   muted>
+        <video width="320" height="240" autoplay muted>
             <source src="/src/assets/bg_video.mp4" type="video/mp4">
         </video>
     </div>
@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <header>
             <nav>
-                <RouterLink to="/">Home</RouterLink>
+                <RouterLink to="/" >Home</RouterLink>
                 <RouterLink to="/about">About</RouterLink>
                 <RouterLink to="/projects">Projects</RouterLink>
                 <RouterLink to="/experience">Experience</RouterLink>
