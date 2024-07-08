@@ -37,18 +37,36 @@ body {
 	border-radius: 14px;
 	backdrop-filter: blur(20px);
 	margin: auto;
+	color: #fff;
 }
 
-nav {
-	width: 35vw;
+header {
+	width: 100%;
+	text-align: center;
 	margin: auto;
 	display: flex;
 	align-items: center;
-	a {
-		color: #fff;
-		padding: 20px 30px;
-		text-decoration: none;
-		border-bottom: 2px solid transparent;
-		transition: 0.3s;
+	border-bottom: 1px solid #888;
+	padding: 20px 0px;
+	nav{
+		text-align: center;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		a {
+			color: #fff;
+			margin: 0 30px;
+			text-decoration: none;
+			border-bottom: 2px solid transparent;
+			transition: 0.4s;
+		}
+		a:hover {
+			border-color: #fff;
+			transition: 0.4s;
+		}
 	}
+}
+
+main {
+	padding: 0rem 2rem;
 }
