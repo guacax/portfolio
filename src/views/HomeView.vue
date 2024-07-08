@@ -13,6 +13,6 @@
       
     </div>
 
-    <p class="links_home">If you want to know more <RouterLink to='/about'>about me</RouterLink>, my <RouterLink to='/projects'>projects</RouterLink>, about my <RouterLink to='/experience'>work experience</RouterLink> or to know how to <RouterLink to='/contact'>contact</RouterLink> me, just click on the menu up there :) (or on the links in this paraghape)</p>
+    <p class="links_home">If you want to know more <RouterLink to='/about'>about me</RouterLink>, my <RouterLink to='/projects'>projects</RouterLink>, about my <RouterLink to='/experience'>work and school experience</RouterLink> or to know how to <RouterLink to='/contact'>contact</RouterLink> me, just click on the menu up there :) (or on the links in this paraghape)</p>
   </main>
 </template>
