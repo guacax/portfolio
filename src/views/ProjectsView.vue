@@ -1,5 +1,14 @@
 <script setup>
 
+import project from './assets/projectPerso.json'
+
+export default {
+  data() {
+    return {
+        projects: project
+    };
+  },
+};
 </script>
 
 <template>
