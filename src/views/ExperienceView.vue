@@ -3,5 +3,8 @@
 </script>
 
 <template>
-    <h1>Work experiences</h1>
+    <main>
+        <h1>Work experiences</h1>
+
+    </main>
 </template>

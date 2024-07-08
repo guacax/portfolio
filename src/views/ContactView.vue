@@ -2,5 +2,8 @@
 </script>
 
 <template>
-    <h1>Wanna talk ?</h1>
+    <main>
+
+        <h1>Wanna talk ?</h1>
+    </main>
 </template>
