@@ -10,6 +10,7 @@ body {
 	flex-direction: column;
 	padding: 2em;
 	height: 87vh;
+	overflow: hidden;
 	@media screen and (max-width: 480px) {
 		padding: 0.8em;
 	}
@@ -47,6 +48,8 @@ header {
 	width: 100%;
 	text-align: center;
 	margin: auto;
+	position: sticky;
+	top: 0px;
 	display: flex;
 	align-items: center;
 	border-bottom: 1px solid #5e5e5e;
@@ -77,9 +80,21 @@ header {
 
 main {
 	padding: 0rem 2rem;
+	overflow-y: auto;
+	height: 81vh;
 }
 
-#HomePage
+::-webkit-scrollbar {
+	width: 6px;
+	border-radius: 10px;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+	background: #aaa;
+	border-radius: 10px;
+   }
+
+/* HomePage */
 
 .opening{
 	display: flex;
@@ -99,6 +114,20 @@ main {
 .links_home a:hover{
 	border-bottom: 2px solid #e9e4b8;
 	color: #e9e4b8;
-	/* font-weight: bold; */
 	transition: 0.4s;
 }
+
+/* ProjectsPage */
+div.projects{
+	display: grid;
+	grid-gap: 35px;
+	grid-template-columns: repeat(3, 1fr);
+	img{
+		width: 100%;
+	}
+	h2{
+		
+	}
+}
+
+
