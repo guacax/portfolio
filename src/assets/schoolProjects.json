@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Loldex",
+		"img": "src/assets/loldex.png",
+		"time": "03/2024-05/2024",
+		"language": "PHP brut",
+		"desc": "For our PHP class, we had to do a sorta pokedex, we were free to choose what data we could use, so i decide to use ddragon, the free api from riot for League of Legends. It's a very basic web app with every champs, their details and every item with their details too. I will probably do an update version with better ux ui design in the future"
+	},
+	{
+		"name": "E-commerce",
+		"img": "src/assets/e-commerce.png",
+		"time": "04/2024-06/2024",
+		"language": "Symfony",
+		"desc": "For our symfony class, we had to do an e-commerce platform without the payment, for logic reasons (we didn't want to pay for a school project). We had to make different roles, manage the cart, adding, modifying and deleting carts, products and user"
+	}
+]
