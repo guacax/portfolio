@@ -12,11 +12,11 @@ const props = defineProps({
 
 <template>
 
-        <img :src="img" :alt="img">
-        <h2>{{ name }}</h2>
-        <em>{{ time }}</em>
-        <!-- langugae avec icone -->
-        <p>{{ language }}</p>
-        <p>{{ desc }}</p>
-   
+    <img :src="img" :alt="img">
+    <h2>{{ name }}</h2>
+    <em>{{ time }}</em>
+    <!-- langugae avec icone -->
+    <p>{{ language }}</p>
+    <p>{{ desc }}</p>
+
 </template>
