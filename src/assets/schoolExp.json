@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Bachelor developement web",
+		"entreprise": "SUPDEWEB PARIS",
+		"date": "01/09/2022 - 31/08/2025",
+		"desc": "Bachelor Degree in web development, learning front-end (HTML, CSS, JS, Vue, react) and back-end (MySQL, PHP, Symfony, Ruby, Python), having UX UI classes, history of the web, English classes"
+	},
+	{
+		"title": "BUT INFORMATIQUE - Réalisation d’applications : conception, développement, validation",
+		"entreprise": "IUT Le Havre",
+		"date": "01/09/2021 - 31/05/2022",
+		"desc": "DROPPED OUT - I learned java, a bit of C##, front-end and back-end, but I really hated the professors (insulted us when we made a mistake on our code) so dropped out to take care of my mental health"
+	}
+]

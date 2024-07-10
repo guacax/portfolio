@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Co-op web developper",
+		"entreprise": "OEC Paris-IDF",
+		"date": "20/09/2023 - 01/09/2025",
+		"desc": "I work for two years at the OEC for my bachelor degree"
+	},
+	{
+		"title": "CDD web developper",
+		"entreprise": "OEC Paris-IDF",
+		"date": "01/07/2023 - 31/07/2023",
+		"desc": "I worked for a month to prepare for my apprenticeship and help with some WordPress"
+	},
+	{
+		"title": "Internship web developper",
+		"entreprise": "OEC Paris-IDF",
+		"date": "01/03/2023 - 31/05/2023",
+		"desc": "I did some WordPress checkup, I was a project chief for a v2 of one of our website and I made a brand-new version of a WordPress."
+	}
+]
