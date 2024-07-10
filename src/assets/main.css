@@ -33,7 +33,7 @@ body {
 .app {
 	max-width: 1250px;
 	max-height: 860px;
-	height: 90vh;
+	height: 92vh;
 	margin: auto;
 	color: #fff;
 	background: rgba(78, 79, 83, 0.4);
@@ -54,7 +54,7 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #5e5e5e;
 	padding: 20px 0px;
-	nav{
+	nav {
 		text-align: center;
 		margin: auto;
 		display: flex;
@@ -71,15 +71,15 @@ header {
 			border-color: #fff;
 			transition: 0.4s;
 		}
-		.isActive{
+		.isActive {
 			color: #fff;
 			border-color: #fff;
-		}		
+		}
 	}
 }
 
 main {
-	padding: 0rem 2rem;
+	padding: 0rem 2rem 1rem ;
 	overflow-y: auto;
 	height: 81vh;
 }
@@ -87,47 +87,59 @@ main {
 ::-webkit-scrollbar {
 	width: 6px;
 	border-radius: 10px;
-   }
-   
-   ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
 	background: #aaa;
 	border-radius: 10px;
-   }
+}
 
 /* HomePage */
 
-.opening{
+.opening {
 	display: flex;
 	justify-content: space-between;
 }
-.opening img{
+.opening img {
 	width: 25%;
 	padding-top: 2rem;
 }
 
-.links_home a{
-	color: #DBD6AB;
+.links_home a {
+	color: #dbd6ab;
 	border-bottom: 2px solid transparent;
 	text-decoration: none;
 	transition: 0.4s;
 }
-.links_home a:hover{
-	border-bottom: 2px solid #e9e4b8;
+.links_home a:hover {
+	border-bottom: 2px solid rgb(233, 228, 184);
 	color: #e9e4b8;
 	transition: 0.4s;
 }
 
 /* ProjectsPage */
-div.projects{
+div.projects {
 	display: grid;
 	grid-gap: 35px;
 	grid-template-columns: repeat(3, 1fr);
-	img{
+	img {
 		width: 100%;
-	}
-	h2{
-		
 	}
 }
 
-
+/* ExpsPage */
+div.exps {
+	display: grid;
+	grid-gap: 35px;
+	grid-template-columns: repeat(2, 3fr);
+	div {
+		background: rgba(233, 228, 184, 0.2);
+		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		padding: 0 1rem;
+		width: auto;
+	}
+}
