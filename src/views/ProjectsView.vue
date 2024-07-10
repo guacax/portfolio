@@ -4,8 +4,6 @@ import cardProject from '@/components/CardProject.vue'
 import schoolProjects from '../assets/schoolProjects.json'
 import persoProjects from '../assets/persoProjects.json'
 
-
-
 </script>
 
 <template>
